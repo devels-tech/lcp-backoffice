@@ -6,6 +6,7 @@ import { ComingSoon } from 'components/common/ComingSoon'
 
 export default function EventosPage () {
   return <ComingSoon />
+
   // return (
   //   <div className='w-full h-full'>
   //     <span>LCP Admin - Eventos</span>
