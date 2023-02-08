@@ -1,0 +1,3 @@
+.notification-quantity {
+  @apply absolute -right-2.5 -top-1.5 w-4 h-4 rounded-full bg-black-primary text-white text-xs flex items-center justify-center shadow lg:-right-3 lg:-top-2 lg:w-5 lg:h-5 lg:text-sm;
+}

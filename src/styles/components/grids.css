@@ -1,0 +1,19 @@
+.basicList {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+.basicList-banners {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
+
+@media screen and (min-width: 640px) {
+  .basicList-banners {
+    grid-template-columns: repeat(auto-fill, minmax(442px, 1fr));
+  }
+}

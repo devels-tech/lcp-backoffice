@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './utils/authLayout.css';
+@import './utils/inputsDisabled.css';
+@import './utils/animations.css';
+@import './components/editor.css';
+@import './components/grids.css';
+@import './components/linkNavigationNested.css';
+@import './components/modal.css';
+@import './components/inputs.css';
+@import './components/toggle.css';
+

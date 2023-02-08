@@ -1,0 +1,23 @@
+.menuBar__button {
+  @apply bg-transparent text-black border border-solid border-black rounded-sm px-1 py-0.5 mx-2 my-1;
+}
+
+.ql-stroke {
+  fill: none;
+  stroke: #444;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.ql-fill {
+  fill: #444;
+}
+
+.ql-snow .ql-even {
+  fillRule: evenodd;
+}
+
+.editor-container > div {
+  @apply border-2 border-solid border-black rounded-md mt-2 overflow-y-scroll h-140 p-4;
+}

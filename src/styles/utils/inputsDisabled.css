@@ -1,0 +1,4 @@
+.wrapperDisabled {
+  content: ' ';
+  @apply absolute top-6 left-0 w-full px-3 py-2 my-2;
+}
